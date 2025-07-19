@@ -1,5 +1,3 @@
 #!/bin/bash
-echo "-----> Starting PHP server"
-which php
-php -v
-exec php -S 0.0.0.0:$PORT -t public
+echo "Starting PHP server..."
+/usr/local/bin/php -S 0.0.0.0:10000 -t /var/www/html
