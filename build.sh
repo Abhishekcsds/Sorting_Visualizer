@@ -1,3 +1,3 @@
 #!/bin/bash
-echo "-----> Detected PHP application"
-echo "-----> No build steps needed for pure PHP"
+echo "-----> PHP application detected"
+echo "-----> No build steps required"

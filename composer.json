@@ -1,10 +1,7 @@
 {
-    "name": "abhishekcsds/sorting-visualizer",
+    "name": "sorting-visualizer",
     "type": "project",
     "require": {
         "php": "^8.2"
-    },
-    "scripts": {
-        "start": "php -S 0.0.0.0:$PORT -t public"
     }
 }
