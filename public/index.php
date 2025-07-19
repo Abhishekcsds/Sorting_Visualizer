@@ -1,7 +1,8 @@
 <?php
-require_once 'config.php';
-require __DIR__ . '/../includes/header.php';
-require __DIR__ . '/../config.php';
+
+require_once __DIR__ . '/../config.php';
+require_once __DIR__ . '/../includes/header.php';
+// Rest of your code
 // Start session if not already started
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
