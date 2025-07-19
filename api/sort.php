@@ -7,6 +7,8 @@ require_once '../includes/sorting/merge_sort.php';
 require_once '../includes/sorting/selection_sort.php';
 
 header('Content-Type: application/json');
+header("Access-Control-Allow-Origin: *");
+header("Content-Type: application/json");
 
 session_start();
 if (!isset($_SESSION['array'])) {
